@@ -1,0 +1,1145 @@
+EESchema Schematic File Version 4
+LIBS:mobAud-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SD-CARD-altern:CONN_01X01 CON3
+U 1 1 594C2EFA
+P 2250 700
+F 0 "CON3" H 2250 800 50  0000 C CNN
+F 1 "Bat+" H 2250 850 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2250 700 50  0001 C CNN
+F 3 "" H 2250 700 50  0001 C CNN
+	1    2250 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 59517904
+P 3350 950
+F 0 "#PWR01" H 3350 700 50  0001 C CNN
+F 1 "GND" H 3350 800 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 594EDE95
+P 8600 1850
+F 0 "R1" V 8500 1850 50  0000 C CNN
+F 1 "5k6" V 8600 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8530 1850 50  0001 C CNN
+F 3 "" H 8600 1850 50  0001 C CNN
+	1    8600 1850
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5A964B96
+P 900 1200
+F 0 "C1" H 925 1300 50  0000 L CNN
+F 1 "1000u" H 800 1100 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D12.5mm_P5.00mm" H 938 1050 50  0001 C CNN
+F 3 "" H 900 1200 50  0001 C CNN
+	1    900  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5A964B98
+P 1550 1450
+F 0 "#PWR03" H 1550 1200 50  0001 C CNN
+F 1 "GND" H 1550 1300 50  0000 C CNN
+F 2 "" H 1550 1450 50  0001 C CNN
+F 3 "" H 1550 1450 50  0001 C CNN
+	1    1550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L SD-CARD-altern:CONN_01X01 V+1
+U 1 1 5A964B9A
+P 650 700
+F 0 "V+1" H 650 800 50  0000 C CNN
+F 1 "+18V" H 650 600 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 650 700 50  0001 C CNN
+F 3 "" H 650 700 50  0001 C CNN
+	1    650  700 
+	-1   0    0    1   
+$EndComp
+$Comp
+L SD-CARD-altern:CONN_01X01 V-1
+U 1 1 5A964B9B
+P 600 1400
+F 0 "V-1" H 600 1500 50  0000 C CNN
+F 1 "GND" H 600 1300 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 600 1400 50  0001 C CNN
+F 3 "" H 600 1400 50  0001 C CNN
+	1    600  1400
+	-1   0    0    1   
+$EndComp
+Text Label 1650 1400 0    60   ~ 0
+GND
+$Comp
+L SD-CARD-altern:CONN_01X01 CON6
+U 1 1 5A964C1F
+P 3800 1000
+F 0 "CON6" H 3800 1100 50  0000 C CNN
+F 1 "SW" H 3800 900 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3800 1000 50  0001 C CNN
+F 3 "" H 3800 1000 50  0001 C CNN
+	1    3800 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK2
+U 1 1 5A964C30
+P 2950 750
+F 0 "MK2" H 2950 950 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 2950 200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2950 750 50  0001 C CNN
+F 3 "" H 2950 750 50  0001 C CNN
+	1    2950 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK3
+U 1 1 5A964C31
+P 3150 750
+F 0 "MK3" H 3150 950 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 3150 200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3150 750 50  0001 C CNN
+F 3 "" H 3150 750 50  0001 C CNN
+	1    3150 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK4
+U 1 1 5A964C32
+P 3350 750
+F 0 "MK4" H 3350 950 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 3450 200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3350 750 50  0001 C CNN
+F 3 "" H 3350 750 50  0001 C CNN
+	1    3350 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5A964C34
+P 3350 950
+F 0 "#PWR04" H 3350 700 50  0001 C CNN
+F 1 "GND" H 3350 800 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK1
+U 1 1 5A964C35
+P 2750 750
+F 0 "MK1" H 2750 950 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 2750 200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2750 750 50  0001 C CNN
+F 3 "" H 2750 750 50  0001 C CNN
+	1    2750 750 
+	1    0    0    -1  
+$EndComp
+Text Label 1950 700  0    60   ~ 0
++12V
+$Comp
+L mobAud-rescue:PB137 U1
+U 1 1 5A964C37
+P 1500 950
+F 0 "U1" H 1750 1350 60  0000 C CNN
+F 1 "PB137" H 1500 1350 60  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-220-3_Vertical" H 1500 950 60  0001 C CNN
+F 3 "" H 1500 950 60  0001 C CNN
+	1    1500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C2
+U 1 1 5A964C39
+P 1150 1200
+F 0 "C2" H 1175 1300 50  0000 L CNN
+F 1 "1u" H 1200 1100 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_4x5.3" H 1188 1050 50  0001 C CNN
+F 3 "" H 1150 1200 50  0001 C CNN
+	1    1150 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5A964C3A
+P 1950 1200
+F 0 "C3" H 1975 1300 50  0000 L CNN
+F 1 "10u" H 1750 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 1988 1050 50  0001 C CNN
+F 3 "" H 1950 1200 50  0001 C CNN
+	1    1950 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D1
+U 1 1 5A964C3C
+P 8250 1850
+F 0 "D1" H 8250 1950 50  0000 C CNN
+F 1 "1N4148" H 8250 1750 50  0000 C CNN
+F 2 "Diode_SMD:D_MicroMELF_Hadsoldering" H 8250 1675 50  0001 C CNN
+F 3 "" H 8250 1850 50  0001 C CNN
+	1    8250 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5A964C3D
+P 7900 1850
+F 0 "D2" H 7900 1950 50  0000 C CNN
+F 1 "LEDR" H 7900 1750 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7900 1850 50  0001 C CNN
+F 3 "" H 7900 1850 50  0001 C CNN
+	1    7900 1850
+	-1   0    0    1   
+$EndComp
+Text Label 900  850  0    60   ~ 0
++18V
+Wire Wire Line
+	800  1400 900  1400
+Connection ~ 900  1400
+Connection ~ 900  700 
+Wire Wire Line
+	1900 700  1950 700 
+Wire Wire Line
+	2050 700  2050 850 
+Wire Wire Line
+	900  1400 900  1350
+Wire Wire Line
+	900  700  900  900 
+Wire Wire Line
+	850  700  900  700 
+Wire Wire Line
+	3150 900  3150 850 
+Wire Wire Line
+	3350 850  3350 900 
+Connection ~ 3150 900 
+Connection ~ 3350 900 
+Connection ~ 2950 900 
+Wire Wire Line
+	1550 1050 1550 1400
+Wire Wire Line
+	1150 1350 1150 1400
+Wire Wire Line
+	1150 1050 1150 900 
+Wire Wire Line
+	1150 900  900  900 
+Connection ~ 900  900 
+Wire Wire Line
+	1950 1050 1950 700 
+Wire Wire Line
+	1950 1400 1950 1350
+Connection ~ 1950 700 
+Connection ~ 2050 700 
+Connection ~ 1550 1400
+$Comp
+L power:GND #PWR06
+U 1 1 5AAE75F5
+P 3350 950
+F 0 "#PWR06" H 3350 700 50  0001 C CNN
+F 1 "GND" H 3350 800 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5AAE7632
+P 3350 950
+F 0 "#PWR08" H 3350 700 50  0001 C CNN
+F 1 "GND" H 3350 800 50  0000 C CNN
+F 2 "" H 3350 950 50  0001 C CNN
+F 3 "" H 3350 950 50  0001 C CNN
+	1    3350 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 850  2750 900 
+Wire Wire Line
+	2950 900  2950 850 
+Wire Wire Line
+	2750 900  2950 900 
+$Comp
+L SD-CARD-altern:CONN_01X01 CON4
+U 1 1 5AAF5726
+P 2600 850
+F 0 "CON4" H 2600 700 50  0000 C CNN
+F 1 "SW" H 2600 750 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2600 850 50  0001 C CNN
+F 3 "" H 2600 850 50  0001 C CNN
+	1    2600 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SD-CARD-altern:CONN_01X01 CON7
+U 1 1 5AAF7AEE
+P 6050 1200
+F 0 "CON7" H 6200 1200 50  0000 C CNN
+F 1 "5V LCD" H 6150 1100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6050 1200 50  0001 C CNN
+F 3 "" H 6050 1200 50  0001 C CNN
+	1    6050 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1000 5100 1000
+Wire Wire Line
+	5100 1150 5100 1000
+$Comp
+L SD-CARD-altern:CONN_01X01 CON5
+U 1 1 5AAFC566
+P 2250 1400
+F 0 "CON5" H 2250 1500 50  0000 C CNN
+F 1 "GND" H 2250 1550 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 2250 1400 50  0001 C CNN
+F 3 "" H 2250 1400 50  0001 C CNN
+	1    2250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1400 1150 1400
+Wire Wire Line
+	3150 900  3350 900 
+Wire Wire Line
+	3350 900  3350 950 
+Wire Wire Line
+	2950 900  3150 900 
+Wire Wire Line
+	900  900  900  1050
+Wire Wire Line
+	1550 1400 1550 1450
+Wire Wire Line
+	1550 1400 1950 1400
+$Comp
+L Device:CP C4
+U 1 1 5B6F6B77
+P 4000 1400
+F 0 "C4" H 4025 1500 50  0000 L CNN
+F 1 "100u" H 3900 1300 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4038 1250 50  0001 C CNN
+F 3 "" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:LM2576HVS-5 U2
+U 1 1 5B6FA968
+P 4700 1100
+F 0 "U2" H 4700 1467 50  0000 C CNN
+F 1 "LM2576HVS-5" H 4700 1376 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-5_Vertical" H 4700 850 50  0001 L CIN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2576.pdf" H 4700 1100 50  0001 C CNN
+	1    4700 1100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 1000
+Wire Wire Line
+	4700 1400 4700 1600
+Wire Wire Line
+	4200 1200 4200 1600
+Wire Wire Line
+	4200 1600 4700 1600
+Connection ~ 4700 1600
+Connection ~ 3350 950 
+$Comp
+L Device:CP C5
+U 1 1 5B700A1A
+P 5800 1400
+F 0 "C5" H 5825 1500 50  0000 L CNN
+F 1 "1000u" H 5700 1300 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" H 5838 1250 50  0001 C CNN
+F 3 "" H 5800 1400 50  0001 C CNN
+	1    5800 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5B700DA6
+P 5600 1200
+F 0 "L1" V 5790 1200 50  0000 C CNN
+F 1 "L" V 5699 1200 50  0000 C CNN
+F 2 "Inductor_THT:L_Toroid_Vertical_L31.8mm_W15.9mm_P13.50mm_Bourns_5700" H 5600 1200 50  0001 C CNN
+F 3 "~" H 5600 1200 50  0001 C CNN
+	1    5600 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5750 1200 5800 1200
+Wire Wire Line
+	5800 1200 5800 1250
+Wire Wire Line
+	5450 1200 5350 1200
+$Comp
+L Diode:1N5822 D3
+U 1 1 5B701EDD
+P 5350 1450
+F 0 "D3" V 5350 1550 50  0000 L CNN
+F 1 "1N5822" V 5450 1500 50  0000 L CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 5350 1275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88526/1n5820.pdf" H 5350 1450 50  0001 C CNN
+	1    5350 1450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 1300 5350 1200
+Connection ~ 5350 1200
+Wire Wire Line
+	5350 1200 5200 1200
+Wire Wire Line
+	5350 1600 4900 1600
+Connection ~ 5350 1600
+Wire Wire Line
+	5800 1600 5800 1550
+Wire Wire Line
+	5350 1600 5800 1600
+Wire Wire Line
+	5850 1200 5800 1200
+Connection ~ 5800 1200
+Wire Wire Line
+	5800 1200 5800 1000
+Wire Wire Line
+	5800 1000 5200 1000
+$Comp
+L SD-CARD-altern:CONN_01X01 CON8
+U 1 1 5AAF9261
+P 6050 1600
+F 0 "CON8" H 6050 1700 50  0000 C CNN
+F 1 "GND PI" H 6250 1600 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6050 1600 50  0001 C CNN
+F 3 "" H 6050 1600 50  0001 C CNN
+	1    6050 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1600 5800 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	4200 1600 4000 1600
+Wire Wire Line
+	4000 1600 4000 1550
+Connection ~ 4200 1600
+Wire Wire Line
+	4000 1000 4200 1000
+Wire Wire Line
+	4000 1000 4000 1250
+Text Label 4900 1600 0    50   ~ 0
+GND_5V
+Text Label 5300 1000 0    50   ~ 0
++5
+Text Label 4000 1000 0    50   ~ 0
++12
+$Comp
+L SD-CARD-altern:CONN_01X01 CON9
+U 1 1 5B71294B
+P 6050 1000
+F 0 "CON9" H 6200 1000 50  0000 C CNN
+F 1 "5V PI" H 6100 1100 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6050 1000 50  0001 C CNN
+F 3 "" H 6050 1000 50  0001 C CNN
+	1    6050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1000 5800 1000
+Connection ~ 5800 1000
+$Sheet
+S 3650 650  2800 1300
+U 5B7163BC
+F0 "5V_Drop_Down_Regulator" 50
+F1 "5V_3ADrop_Down_Regulator.sch" 50
+$EndSheet
+$Comp
+L SD-CARD-altern:CONN_01X01 CON11
+U 1 1 5B71F185
+P 6050 1800
+F 0 "CON11" H 6050 1900 50  0000 C CNN
+F 1 "GND LCD" H 6250 1800 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 6050 1800 50  0001 C CNN
+F 3 "" H 6050 1800 50  0001 C CNN
+	1    6050 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1800 5800 1800
+Wire Wire Line
+	5800 1800 5800 1600
+$Comp
+L SD-CARD-altern:CONN_01X01 CON10
+U 1 1 5B72004C
+P 3800 1600
+F 0 "CON10" H 3750 1700 50  0000 C CNN
+F 1 "Bat-" H 3750 1500 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3800 1600 50  0001 C CNN
+F 3 "" H 3800 1600 50  0001 C CNN
+	1    3800 1600
+	-1   0    0    1   
+$EndComp
+Connection ~ 4000 1600
+$Comp
+L SD-CARD-altern:CONN_01X01 CON1
+U 1 1 5B70870D
+P 3800 2400
+F 0 "CON1" H 3800 2500 50  0000 C CNN
+F 1 "SW" H 3800 2300 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3800 2400 50  0001 C CNN
+F 3 "" H 3800 2400 50  0001 C CNN
+	1    3800 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SD-CARD-altern:CONN_01X01 CON2
+U 1 1 5B708789
+P 3800 4300
+F 0 "CON2" H 3750 4400 50  0000 C CNN
+F 1 "Bat-" H 3750 4200 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 3800 4300 50  0001 C CNN
+F 3 "" H 3800 4300 50  0001 C CNN
+	1    3800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L LM3914:LM3914 U3
+U 1 1 5B712093
+P 4950 3300
+F 0 "U3" H 5628 3346 50  0000 L CNN
+F 1 "LM3914" H 5628 3255 50  0000 L CNN
+F 2 "Package_DIP:DIP-18_W7.62mm" H 5000 3950 50  0001 C CNN
+F 3 "" H 4300 3500 50  0001 C CNN
+	1    4950 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:HDSP-4830_2 BAR1
+U 1 1 5B71574A
+P 4950 2650
+F 0 "BAR1" V 4904 2020 50  0000 R CNN
+F 1 "HDSP-4830_2" V 4995 2020 50  0000 R CNN
+F 2 "Display:HDSP-4830" H 4950 1850 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 2950 2850 50  0001 C CNN
+	1    4950 2650
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4000 2400 4050 2400
+Wire Wire Line
+	4550 2400 4550 2450
+Wire Wire Line
+	4550 2400 4650 2400
+Wire Wire Line
+	4650 2400 4650 2450
+Connection ~ 4550 2400
+Wire Wire Line
+	4650 2400 4750 2400
+Wire Wire Line
+	4750 2400 4750 2450
+Connection ~ 4650 2400
+Wire Wire Line
+	4750 2400 4850 2400
+Wire Wire Line
+	4850 2400 4850 2450
+Connection ~ 4750 2400
+Wire Wire Line
+	4850 2400 4950 2400
+Wire Wire Line
+	4950 2400 4950 2450
+Connection ~ 4850 2400
+Wire Wire Line
+	4950 2400 5050 2400
+Wire Wire Line
+	5050 2400 5050 2450
+Connection ~ 4950 2400
+Wire Wire Line
+	5050 2400 5150 2400
+Wire Wire Line
+	5150 2400 5150 2450
+Connection ~ 5050 2400
+Wire Wire Line
+	5150 2400 5250 2400
+Wire Wire Line
+	5250 2400 5250 2450
+Connection ~ 5150 2400
+Wire Wire Line
+	5250 2400 5350 2400
+Wire Wire Line
+	5350 2400 5350 2450
+Connection ~ 5250 2400
+Wire Wire Line
+	5350 2400 5450 2400
+Wire Wire Line
+	5450 2400 5450 2450
+Connection ~ 5350 2400
+Wire Wire Line
+	4450 2950 4450 2850
+Wire Wire Line
+	4450 2850 4550 2850
+Wire Wire Line
+	4550 2950 4550 2900
+Wire Wire Line
+	4550 2900 4600 2900
+Wire Wire Line
+	4600 2900 4600 2850
+Wire Wire Line
+	4600 2850 4650 2850
+Wire Wire Line
+	4650 2950 4650 2900
+Wire Wire Line
+	4650 2900 4700 2900
+Wire Wire Line
+	4700 2900 4700 2850
+Wire Wire Line
+	4700 2850 4750 2850
+Wire Wire Line
+	4750 2950 4750 2900
+Wire Wire Line
+	4750 2900 4800 2900
+Wire Wire Line
+	4800 2900 4800 2850
+Wire Wire Line
+	4800 2850 4850 2850
+Wire Wire Line
+	4850 2950 4850 2900
+Wire Wire Line
+	4850 2900 4900 2900
+Wire Wire Line
+	4900 2900 4900 2850
+Wire Wire Line
+	4900 2850 4950 2850
+Wire Wire Line
+	5100 2950 5100 2900
+Wire Wire Line
+	5100 2900 5050 2900
+Wire Wire Line
+	5050 2900 5050 2850
+Wire Wire Line
+	5200 2950 5200 2900
+Wire Wire Line
+	5200 2900 5150 2900
+Wire Wire Line
+	5150 2900 5150 2850
+Wire Wire Line
+	5300 2950 5300 2900
+Wire Wire Line
+	5300 2900 5250 2900
+Wire Wire Line
+	5250 2900 5250 2850
+Wire Wire Line
+	5400 2950 5400 2900
+Wire Wire Line
+	5400 2900 5350 2900
+Wire Wire Line
+	5350 2900 5350 2850
+Wire Wire Line
+	5500 2950 5500 2900
+Wire Wire Line
+	5500 2900 5450 2900
+Wire Wire Line
+	5450 2900 5450 2850
+Wire Wire Line
+	4750 3650 4750 3750
+Wire Wire Line
+	4750 3750 5350 3750
+Wire Wire Line
+	5350 3750 5350 3650
+Wire Wire Line
+	5050 3650 5200 3650
+$Comp
+L Device:R R3
+U 1 1 5B73F5C4
+P 5400 3900
+F 0 "R3" V 5500 3900 50  0000 C CNN
+F 1 "1.2k" V 5400 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 5330 3900 50  0001 C CNN
+F 3 "~" H 5400 3900 50  0001 C CNN
+	1    5400 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C7
+U 1 1 5B73F696
+P 4600 4050
+F 0 "C7" H 4500 4150 50  0000 L CNN
+F 1 "0.1u" H 4400 3950 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4638 3900 50  0001 C CNN
+F 3 "~" H 4600 4050 50  0001 C CNN
+	1    4600 4050
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 3650 2250 2800 2250
+U 5B707097
+F0 "Batt_Watcher" 50
+F1 "Batt_Watcher.sch" 50
+$EndSheet
+Wire Wire Line
+	4000 4300 4150 4300
+Wire Wire Line
+	4450 4300 4450 3650
+Wire Wire Line
+	4600 3650 4600 3700
+Wire Wire Line
+	4600 3700 4050 3700
+Wire Wire Line
+	4050 3700 4050 2400
+Connection ~ 4050 2400
+Wire Wire Line
+	4050 2400 4550 2400
+$Comp
+L Device:R R2
+U 1 1 5B755217
+P 4800 4100
+F 0 "R2" V 4900 4150 50  0000 C CNN
+F 1 "4.7k" V 4800 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4730 4100 50  0001 C CNN
+F 3 "~" H 4800 4100 50  0001 C CNN
+	1    4800 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3900 4150 3900
+Wire Wire Line
+	4050 3900 4050 3700
+Connection ~ 4600 3900
+Connection ~ 4050 3700
+$Comp
+L Device:CP C6
+U 1 1 5B75CF3A
+P 4150 4050
+F 0 "C6" H 4268 4096 50  0000 L CNN
+F 1 "10u" H 4268 4005 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_5x5.4" H 4188 3900 50  0001 C CNN
+F 3 "~" H 4150 4050 50  0001 C CNN
+	1    4150 4050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 3900
+Wire Wire Line
+	4150 3900 4050 3900
+Wire Wire Line
+	4150 4200 4150 4300
+Connection ~ 4150 4300
+Wire Wire Line
+	4150 4300 4450 4300
+Wire Wire Line
+	4600 4200 4600 4300
+Wire Wire Line
+	4600 4300 4450 4300
+Connection ~ 4450 4300
+Wire Wire Line
+	5200 3650 5200 3900
+Wire Wire Line
+	5200 3900 5250 3900
+Connection ~ 5200 3650
+$Comp
+L Device:R_POT RV2
+U 1 1 5B76AA33
+P 5750 3900
+F 0 "RV2" H 5681 3854 50  0000 R CNN
+F 1 "4.7k" V 5750 4000 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 5750 3900 50  0001 C CNN
+F 3 "~" H 5750 3900 50  0001 C CNN
+F 4 "Vmin" H 5600 3950 50  0000 C CNN "Info"
+	1    5750 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 5B76AFF9
+P 5000 4100
+F 0 "RV1" H 5200 4050 50  0000 R CNN
+F 1 "4.7k" V 5000 4200 50  0000 R CNN
+F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YL_Vertical" H 5000 4100 50  0001 C CNN
+F 3 "~" H 5000 4100 50  0001 C CNN
+F 4 "Vmax" H 5100 3950 50  0000 C CNN "Info"
+	1    5000 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 3950 4800 3900
+Wire Wire Line
+	4600 3900 4800 3900
+Wire Wire Line
+	5000 3950 5000 3900
+Wire Wire Line
+	5000 3900 4900 3900
+Wire Wire Line
+	4900 3900 4900 4250
+Wire Wire Line
+	4900 4250 4800 4250
+Wire Wire Line
+	5000 4250 5000 4300
+Wire Wire Line
+	5000 4300 4600 4300
+Connection ~ 4600 4300
+Wire Wire Line
+	5150 4100 5150 3800
+Wire Wire Line
+	5150 3800 4900 3800
+Wire Wire Line
+	4900 3800 4900 3650
+Wire Wire Line
+	5600 3900 5550 3900
+Wire Wire Line
+	5350 3750 5750 3750
+Connection ~ 5350 3750
+Connection ~ 5000 4300
+Wire Wire Line
+	5750 4300 5750 4050
+Wire Wire Line
+	5000 4300 5750 4300
+Wire Wire Line
+	5500 3650 5500 3700
+Wire Wire Line
+	5500 3700 5750 3700
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK9
+U 1 1 5B7B22ED
+P 6400 2400
+F 0 "MK9" H 6400 2600 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 6550 2400 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6400 2400 50  0001 C CNN
+F 3 "" H 6400 2400 50  0001 C CNN
+	1    6400 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK8
+U 1 1 5B7B2741
+P 6200 2800
+F 0 "MK8" H 6200 3000 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 5650 2800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6200 2800 50  0001 C CNN
+F 3 "" H 6200 2800 50  0001 C CNN
+	1    6200 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK7
+U 1 1 5B7B2CBF
+P 6200 2400
+F 0 "MK7" H 6200 2600 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 6800 2400 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6200 2400 50  0001 C CNN
+F 3 "" H 6200 2400 50  0001 C CNN
+	1    6200 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK10
+U 1 1 5B7B36FF
+P 6400 2800
+F 0 "MK10" H 6400 3000 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 6150 2800 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 6400 2800 50  0001 C CNN
+F 3 "" H 6400 2800 50  0001 C CNN
+	1    6400 2800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5750 4300 6050 4300
+Wire Wire Line
+	6050 4300 6050 2600
+Wire Wire Line
+	6050 2600 6200 2600
+Wire Wire Line
+	6400 2600 6400 2500
+Connection ~ 5750 4300
+Wire Wire Line
+	6200 2500 6200 2600
+Connection ~ 6200 2600
+Wire Wire Line
+	6200 2600 6400 2600
+Wire Wire Line
+	6200 2700 6200 2600
+Wire Wire Line
+	6400 2600 6400 2700
+Connection ~ 6400 2600
+Text Label 5300 4300 0    50   ~ 0
+GND_V
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK5
+U 1 1 5B7232FE
+P 4700 1700
+F 0 "MK5" H 4700 1900 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 4700 2050 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4700 1700 50  0001 C CNN
+F 3 "" H 4700 1700 50  0001 C CNN
+	1    4700 1700
+	-1   0    0    1   
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK6
+U 1 1 5B723DFA
+P 4900 1700
+F 0 "MK6" H 4900 1900 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" H 4900 2150 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 4900 1700 50  0001 C CNN
+F 3 "" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	-1   0    0    1   
+$EndComp
+Connection ~ 4900 1600
+Wire Wire Line
+	4900 1600 4700 1600
+Text Label 4200 2400 0    50   ~ 0
+5V_V
+$Comp
+L SD-CARD-altern:CONN_01X01 CON17
+U 1 1 5B71A14B
+P 5950 3700
+F 0 "CON17" H 5950 3800 50  0000 C CNN
+F 1 "Mode" H 5950 3900 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 5950 3700 50  0001 C CNN
+F 3 "" H 5950 3700 50  0001 C CNN
+	1    5950 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK11
+U 1 1 5B73D451
+P 7650 1250
+F 0 "MK11" H 7650 1450 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 7500 1200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7650 1250 50  0001 C CNN
+F 3 "" H 7650 1250 50  0001 C CNN
+	1    7650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK12
+U 1 1 5B73D807
+P 7900 1250
+F 0 "MK12" H 7900 1450 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 7800 1200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 7900 1250 50  0001 C CNN
+F 3 "" H 7900 1250 50  0001 C CNN
+	1    7900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L mobAud-rescue:Mounting_Hole_PAD MK13
+U 1 1 5B73DB70
+P 8150 1250
+F 0 "MK13" H 8150 1450 50  0000 C CNN
+F 1 "Mounting_Hole_PAD" V 8050 1200 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 8150 1250 50  0001 C CNN
+F 3 "" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1350 7900 1350
+Wire Wire Line
+	7900 1350 8150 1350
+Connection ~ 7900 1350
+$Comp
+L SD-CARD-altern:CONN_01X01 CON14
+U 1 1 5B749F37
+P 8450 1350
+F 0 "CON14" H 8450 1450 50  0000 C CNN
+F 1 "GND_S" H 8650 1350 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 8450 1350 50  0001 C CNN
+F 3 "" H 8450 1350 50  0001 C CNN
+	1    8450 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1350 8150 1350
+Connection ~ 8150 1350
+Wire Wire Line
+	8100 1850 8050 1850
+Wire Wire Line
+	8450 1850 8400 1850
+Wire Wire Line
+	8800 1850 8750 1850
+$Comp
+L SD-CARD-altern:CONN_01X01 CON12
+U 1 1 5B775BA1
+P 7500 1850
+F 0 "CON12" H 7450 1950 50  0000 C CNN
+F 1 "SW" H 7450 1750 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7500 1850 50  0001 C CNN
+F 3 "" H 7500 1850 50  0001 C CNN
+	1    7500 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7700 1850 7750 1850
+Wire Wire Line
+	8150 1350 8150 1550
+Wire Wire Line
+	8150 1550 8800 1550
+Wire Wire Line
+	8800 1550 8800 1850
+$Comp
+L SD-CARD-altern:CONN_01X01 CON16
+U 1 1 5B789EC6
+P 8750 2350
+F 0 "CON16" H 8750 2450 50  0000 C CNN
+F 1 "Mode_Con" H 8750 2250 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 8750 2350 50  0001 C CNN
+F 3 "" H 8750 2350 50  0001 C CNN
+	1    8750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SD-CARD-altern:CONN_01X01 CON13
+U 1 1 5B78B314
+P 7500 2450
+F 0 "CON13" H 7450 2550 50  0000 C CNN
+F 1 "5V" H 7500 2350 50  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" H 7500 2450 50  0001 C CNN
+F 3 "" H 7500 2450 50  0001 C CNN
+	1    7500 2450
+	-1   0    0    1   
+$EndComp
+Text Label 7750 2450 0    50   ~ 0
+5V_S
+$Comp
+L Switch:SW_DPDT_x2 SW1
+U 1 1 5B7938B9
+P 8150 2450
+F 0 "SW1" H 8400 2450 50  0000 C CNN
+F 1 "SW_DPDT_x2" H 8150 2250 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 8150 2450 50  0001 C CNN
+F 3 "" H 8150 2450 50  0001 C CNN
+	1    8150 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 2450 7950 2450
+Wire Wire Line
+	8550 2350 8450 2350
+$Comp
+L Device:LED D4
+U 1 1 5B7ACAFF
+P 7900 2150
+F 0 "D4" H 7900 2250 50  0000 C CNN
+F 1 "LEDG" H 7900 2050 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 7900 2150 50  0001 C CNN
+F 3 "" H 7900 2150 50  0001 C CNN
+F 4 "https://www.reichelt.at/led-smd-1206-gruen-180-mcd-140-wue-156120gs753-p231779.html?&trstct=pol_1" H 7900 2150 50  0001 C CNN "Inet"
+	1    7900 2150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7750 2150 7700 2150
+$Comp
+L Device:R R4
+U 1 1 5B7B4413
+P 8600 2150
+F 0 "R4" V 8500 2150 50  0000 C CNN
+F 1 "180" V 8600 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8530 2150 50  0001 C CNN
+F 3 "" H 8600 2150 50  0001 C CNN
+	1    8600 2150
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8450 2150 8050 2150
+Wire Wire Line
+	8750 2150 8800 2150
+Wire Wire Line
+	8800 2150 8800 1850
+Connection ~ 8800 1850
+$Sheet
+S 7150 950  1950 2050
+U 5B7D150C
+F0 "Interface" 50
+F1 "Interface.sch" 50
+$EndSheet
+Wire Wire Line
+	7700 2150 7700 2450
+Connection ~ 7700 2450
+Wire Wire Line
+	2050 1400 1950 1400
+Connection ~ 1950 1400
+$Comp
+L Device:R R5
+U 1 1 5B8019A0
+P 8650 2850
+F 0 "R5" V 8550 2850 50  0000 C CNN
+F 1 "10k" V 8650 2850 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 8580 2850 50  0001 C CNN
+F 3 "" H 8650 2850 50  0001 C CNN
+	1    8650 2850
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5B8022E1
+P 8150 2850
+F 0 "C8" H 8050 2950 50  0000 L CNN
+F 1 "100n" V 8050 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8188 2700 50  0001 C CNN
+F 3 "~" H 8150 2850 50  0001 C CNN
+	1    8150 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2850 7700 2850
+Wire Wire Line
+	7700 2850 7700 2450
+Wire Wire Line
+	8300 2850 8450 2850
+Wire Wire Line
+	8450 2850 8450 2350
+Connection ~ 8450 2350
+Wire Wire Line
+	8450 2350 8350 2350
+Wire Wire Line
+	8450 2850 8500 2850
+Connection ~ 8450 2850
+Wire Wire Line
+	8800 2150 8950 2150
+Wire Wire Line
+	8950 2150 8950 2850
+Wire Wire Line
+	8950 2850 8800 2850
+Connection ~ 8800 2150
+Text Label 8500 1550 0    50   ~ 0
+GND_S
+Wire Wire Line
+	1950 700  2050 700 
+Wire Wire Line
+	900  700  1200 700 
+Wire Wire Line
+	1150 1400 1550 1400
+Connection ~ 1150 1400
+$Comp
+L Diode:SB120 D5
+U 1 1 5B73923A
+P 2200 850
+F 0 "D5" H 2150 1050 50  0000 C CNN
+F 1 "SB120" H 2150 950 50  0000 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2200 675 50  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds23022.pdf" H 2200 850 50  0001 C CNN
+	1    2200 850 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2350 850  2400 850 
+$EndSCHEMATC
